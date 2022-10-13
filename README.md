@@ -5,7 +5,7 @@ ITAV
 An old African Proverb states "it takes a village to raise a child..." 
 ITAV serves to assist parents and caregivers in creating their village.
 
-A web application for parents and caregivers to connect and request care (i.e. babysitting, transportation) for the same day up to a week in advance.
+A web application for parents and caregivers to connect and request childcare (i.e. babysitting, transportation) for the same day or up to a week in advance.
 
 User interaction:
 1. Search and request the following care services within a few hours or for the week: 
