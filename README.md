@@ -22,3 +22,9 @@ User interaction:
      Play dates, 
      School updates(breaks,closures)
 3. Search daycares in their respective area 
+
+
+Notes: 
+1.focus on parent blog 
+2. google api's 
+Reconvene friday, 10.21.22 
