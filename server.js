@@ -3,7 +3,16 @@ const express = require('express');
 const PORT = 5221;
 const app = express();
 
+// used to send data to the front end or send data 
+app.use(express.urlencoded({ extended: true}));
+app.use(express.json());
+
+// allows us to reference files with their relative.path
+// links all public files to the domain
+app.use(express.static('public'));
+
 app.get('/', (req, res) => {
+    // path.join(__dirname "/public/")
     res.send("<h1> This is your site!</h1>");
 });
 
