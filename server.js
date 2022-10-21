@@ -1,6 +1,6 @@
 const express = require('express');
 
-const PORT = 5221;
+const PORT = process.env.PORT || 5221;
 const app = express();
 
 // used to send data to the front end or send data 
@@ -19,7 +19,6 @@ app.get('/', (req, res) => {
 app.get("/:about", (req, res) => {
     console.log(req.params.about);
 })
-
 
 // use req.params to target user inputs (:)
 // ? in express query req.query ?key=value of the object
