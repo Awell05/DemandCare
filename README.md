@@ -28,3 +28,15 @@ Notes:
 1.focus on parent blog 
 2. google api's 
 Reconvene friday, 10.21.22 
+
+Parent Updates: 
+Drop-down options:
+    1. School Closures
+    2. Kid-friendly events
+    3. Play dates
+    4. Babysitter requests?
+
+Html:-input forms with drop down options
+front-end: javascript- will have functions for each drop-down option
+back-end: server will store posts
+
