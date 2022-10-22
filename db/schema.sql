@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS care_db;
+CREATE DATABASE care_db;
