@@ -7,7 +7,7 @@ Category.init(
     {
         category_id: {
             type: DataTypes.INTEGER,
-            primaryKety: true,
+            primaryKey: true,
             autoIncrement: true
         },
         school_closures: {
