@@ -27,7 +27,7 @@ app.use(express.static('public'));
 // use req.params to target user inputs (:)
 // ? in express query req.query ?key=value of the object
 
-sequelize.sync().then(() => {app.listen(PORT, () => 
+sequelize.sync({ force: true }).then(() => {app.listen(PORT, () => 
 console.log(`site loading at http://localhost:${PORT}`)
 );
 });

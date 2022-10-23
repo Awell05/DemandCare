@@ -29,7 +29,8 @@ User.init(
             createdAt: true,
             updatedAt: 'UpdateTimestamp',
             freezeTableName: true,
-            underscored: true
+            underscored: true,
+            modelName: 'user'
         }
 );
 
