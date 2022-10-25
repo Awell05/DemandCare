@@ -11,10 +11,13 @@ Posts.init(
             primaryKey: true,
             autoIncrement: true 
         },
-        user_id: {
+        user: {
             type: DataTypes.INTEGER,
-            // foreignKey
-        },
+            references: {
+              model: 'user',
+              key: 'id',
+            },
+          },
         category_id: {
             type: DataTypes.STRING,
             // foreignKey
